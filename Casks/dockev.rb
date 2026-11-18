@@ -1,9 +1,9 @@
 cask "dockev" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.7.0"
-  sha256 arm:   "75f5403a0445613d54bf7038d2e3cba63d17e6862c61302ca8ea82aceb5dc4e6",
-         intel: "569f2fb7509b4d05c3deb4705190abde2d31921f83f3642921f919b4911048c8"
+  version "0.8.0"
+  sha256 arm:   "85fd6802df3de7a257e35ad357df92e2d391926a0d28ddfaffbf2d15d77676e0",
+         intel: "2ae8ea8feb453222a139190b4e823a09fe53faf2945bcf390ff8417b1a709822"
 
   url "https://github.com/DockevApp/Dockev/releases/download/v#{version}/Dockev_#{version}_mac_#{arch}.dmg"
   name "Dockev"
